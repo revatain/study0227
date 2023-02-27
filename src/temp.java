@@ -1,12 +1,19 @@
 public class Temp {
-   private String name;
-// class 생성자가 없을 경우 내부적으로 기본 생성자가 작동한다.
-// 생성자를 직접 하나라도 만들면 내부의 기본 생성자가 없어진다.
-public Temp(String name) {
-    this.name = name;
-}
+
+    // temp.java
+    // class 생성자가 없을 경우
+    // 내부적으로 기본 생성자가 작동한다
+    // 생성자를 직접 하나라도 만들면
+    // 내부의 기본 생성자가 없어진다
+    private String name;
+
+    public Temp(String name) {
+        this.name = name;
+    }
+
     public String getName() {
-        // String name = "가짜";
+        String name = "가짜";
         return this.name;
     }
+
 }
