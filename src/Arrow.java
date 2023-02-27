@@ -11,6 +11,7 @@ public class Arrow {
                 System.out.println("안녕");
             }
         }).run();
+        // 자바에서 화살표 함수 (람다)는 익명함수를 매개변수로 넘겨 줄때 사용한다.
         new Thread(() -> System.out.println("두번째")).run();
     }
 }
